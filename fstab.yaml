@@ -1,0 +1,5 @@
+mountpoints:
+  /:
+  url: https://author-p154535-e2025234.adobeaemcloud.com/bin/franklin.delivery/ukgcaldicott/carpenteraemforms/main
+  type: "markup"
+  suffix: ".html"
