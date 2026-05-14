@@ -420,7 +420,7 @@ main .form button {
     border: var(--form-button-border);
     padding: var(--form-button-padding);
     font-size: var(--form-button-font-size);
-    border-radius: unset;
+    border-radius: var(--form-button-border-radius);
     width: 100%;
 }
 
