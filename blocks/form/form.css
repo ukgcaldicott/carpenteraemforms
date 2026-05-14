@@ -807,3 +807,14 @@ main div.form-wrapper {
 main .form form select[multiple] {
     height: calc(42px + 50px);
 }
+
+/* Ensure form buttons keep configured rounding even if global styles load later */
+main .form button,
+main .form .button-wrapper button {
+    border-radius: var(--form-button-border-radius) !important;
+}
+
+main .form button:hover,
+main .form .button-wrapper button:hover {
+    border-radius: var(--form-button-hover-border-radius) !important;
+}
