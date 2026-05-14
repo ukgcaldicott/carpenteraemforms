@@ -533,6 +533,7 @@ main .form .button-wrapper button:hover {
     border: 3px solid #fff;
     color: #fff;
     background-color: var(--button-secondary-color);
+    border-radius: var(--form-button-hover-border-radius);
 }
 
 main .form .button-wrapper button[disabled] {
@@ -543,6 +544,7 @@ main .form .button-wrapper button[disabled]:hover {
     border: 3px solid var(--button-secondary-color);
     color: var(--button-secondary-color);
     background-color: transparent;
+    border-radius: var(--form-button-hover-border-radius);
 }
 
 /** Wizard Styling */
